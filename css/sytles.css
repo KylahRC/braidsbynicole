@@ -1,0 +1,108 @@
+.active {
+  background-color: #ffff;
+}
+
+
+.navbar{
+font-size: 16px;
+font-family: Parisienne, handwriting;
+letter-spacing: 1px;
+
+}
+
+.navbar a {
+color: white;
+text-decoration: none;
+padding: 8px;
+
+}
+
+
+body{
+text-align: center;
+font-family: Nunito;
+font-size: 15px;
+}
+
+h1{
+font-family: Parisienne, handwriting;
+font-size: 40px;
+}
+
+h2{  
+font-family: Parisienne, handwriting;
+font-size: 30px;
+
+}
+
+h3 {
+font-family: Parisienne, handwriting;
+font-size: 22px;
+}
+
+.logo{
+margin-top:-50px;
+}
+
+.navbar{
+background-color: #ac964b;
+padding-top:20px;
+padding-bottom:20px;
+width: 100%;
+}
+
+.gallery {
+display: grid;
+grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns */  ;
+grid-gap: 5px; /* Gap between images */
+width: 80%;
+padding-left: 150px;
+padding-right: 150px;
+}
+
+.gallery img {
+width: 100%;
+height: auto;
+display: block;
+margin: 5px;
+}
+
+
+.footer {
+padding: 10px 10px;
+color: #ffffff;
+text-align: center;
+background-color: #ac964b;
+letter-spacing: 1px;
+margin-bottom: 10px;
+font-size: 11px;
+}
+
+.footer p:last-child {
+margin-bottom: 0px;
+}
+
+.footer p a{
+float: center;
+color:black;
+font-size: 15px;
+}
+
+/*media query */
+@media screen and (max-width:960px){
+h1 {
+  color:#ac964b;
+}
+
+h2 {
+  color:#ac964b;
+}
+
+h3 {
+  color:#ac964b;
+}
+
+margin: 4px 0 0 22px;
+
+  
+}
